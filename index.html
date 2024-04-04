@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="h-[100vh] bg-violet-950 flex justify-center items-center">
+
+    <!-- <h1 class="">Hello</h1> -->
+    <div class="w-[500px] h-[450px] border-black border-2 text-center">
+        <h1 id="pass" class="text-white text-3xl mt-5">Password Generator</h1>
+        <input id="input1" class="mt-4 w-10/12 h-9 rounded-2xl pl-3" type="text">
+        <div class="flex justify-center">
+            <button id="gen" class="bg-purple-500 w-36 h-10 mr-1 mt-8 rounded-full text-white font-bold text-xl">Generate</button>
+            <button id="cpy" class="bg-purple-500 w-52 h-10 ml-1 mt-8 rounded-full text-white font-bold text-xl">Copy To Clipboard</button>
+        </div>
+        <div class="flex justify-center mt-5">
+            <div class=" flex justify-between w-10/12 items-center">
+                <h1 class="inline text-white font-bold text-xl">Password Length</h1>
+                <input id="input2" type="text" class="text-white w-20 h-10 bg-violet-950 border-white border-2 rounded-xl pl-2">
+            </div>
+        </div>
+        <div class="flex justify-center mt-2">
+            <div class=" flex justify-between w-10/12 items-center">
+                <h1 class="inline text-white font-bold text-xl">Include Uppercase</h1> 
+                <input id="check1" type="checkbox" class="mr-1 h-5 w-5">           
+            </div>
+        </div>
+        <div class="flex justify-center">
+            <div class="mt-4 flex justify-between w-10/12 items-center">
+                <h1 class="inline text-white font-bold text-xl">Include Lowercase</h1>
+                <input id="check2" type="checkbox" class="mr-1 h-5 w-5">
+            </div>
+        </div>
+        <div class="flex justify-center">
+            <div id="" class="mt-4 flex justify-between w-10/12 items-center">
+                <h1 class="inline text-white font-bold text-xl">Include Numbers</h1>
+                <input id="check3" type="checkbox" class="mr-1 h-5 w-5">
+            </div>
+        </div>
+        <div class="flex justify-center">
+            <div class="mt-4 flex justify-between w-10/12 items-center">
+                <h1 class="inline text-white font-bold text-xl">Include Symbols</h1>
+                <input id="check4" type="checkbox" class="mr-1 h-5 w-5">
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+
+</body>
+</html>
