@@ -1,4 +1,4 @@
-# Javascript + Tailwing + HTML
+# Javascript + Tailwind + HTML
 
 
 
